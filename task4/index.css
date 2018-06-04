@@ -1,0 +1,123 @@
+html {
+    font-size: 625%;
+    font-family: "微软雅黑";
+    background-color: #eff0f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    height: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    background-color: #5fc0cd;
+    text-align: center;
+    padding: 0.25rem 0rem;
+}
+
+.close {
+    width: 33.33%;
+    font-size: 0.32rem;
+    color: #ffffff;
+    margin-left: 0.3rem;
+    text-align: left;
+    position: absolute;
+    left: 0;
+}
+
+.login {
+    width: 33.33%;
+    font-size: 0.36rem;
+    color: #ffffff;
+    letter-spacing: 0.03rem;
+}
+
+.register {
+    width: 33.33%;
+    font-size: 0.32rem;
+    color: #ffffff;
+    margin-right: 0.3rem;
+    text-align: right;
+    float: right;
+    position: absolute;
+    right: 0;
+}
+
+.inputbox {
+    width: 100%;
+}
+
+.tel {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    margin-top: 0.1rem;
+    background-color: #ffffff;
+}
+
+.icon-tel {
+    width: 1.16rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telbox input {
+    width: 100%;
+    height: 100%;
+    font-size: 0.32rem;
+    font-family: "Adobe 黑体 Std";
+    padding: 0rem 0.3rem;
+    border: none;
+    outline: none;
+}
+
+.telbox input:-ms-input-placeholder {
+    color: #e1e5e7;
+}
+
+.loginbox {
+    width: 100%;
+    height: 1rem;
+    margin-top: 0.7rem;
+    position: relative;
+}
+
+.loginbox input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.36rem;
+    color: #f3f4f6;
+    background-color: #5fc0cd;
+    font-family: "STHeitisc Light";
+}
+
+.forget {
+    font-size: 0.32rem;
+    color: #5fc0cd;
+    letter-spacing: 0.02rem;
+    position: absolute;
+    right: 0.26rem;
+    margin-top: 0.17rem;
+}
